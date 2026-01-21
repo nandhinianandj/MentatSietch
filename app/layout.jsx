@@ -1,5 +1,6 @@
 import './globals.css'
 import Head from 'next/head'
+import ChatWidget from './components/ChatWidget'
 
 export const metadata = {
   title: 'Mentat Commons — Designing decisions for collective intelligence',
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
             <p>© 2025 Mentat Commons — Bene Data Collective • Mentat Theatre • Desert Intelligence • Sietch Protocol</p>
           </div>
         </footer>
+        <ChatWidget />
       </body>
     </html>
   )
