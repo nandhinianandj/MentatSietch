@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
             <nav className="mt-4">
               <a className="mr-4" href="/">Home</a>
               <a className="mr-4" href="/about">About</a>
-              <a className="mr-4" href="/axis1">Bene Data Collective</a>
+              <a className="mr-4" href="/axis-i">Axis I</a>
               <a className="mr-4" href="/training">Training</a>
               <a href="/links">Links</a>
             </nav>
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <footer className="bg-navy text-white py-6 mt-12 text-center">
           <div className="container">
-            <p>© 2025 Mentat Commons — Bene Data Collective • Mentat Theatre • Desert Intelligence • Sietch Protocol</p>
+            <p>© 2025 Mentat Commons — Axis I • Training • Desert Intelligence • Sietch Protocol</p>
           </div>
         </footer>
         <ChatWidget />
@@ -40,4 +40,3 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
-
