@@ -1,19 +1,18 @@
 import './globals.css'
-import Head from 'next/head'
 
 export const metadata = {
   title: 'Mentat Commons — Designing decisions for collective intelligence',
-  description: 'Mentat Commons — a studio and lab combining data systems, facilitation, and storytelling to help organizations think together.'
+  description: 'Mentat Commons — a studio and lab combining data systems, facilitation, and storytelling to help organizations think together.',
+  viewport: 'width=device-width, initial-scale=1',
+  themeColor: '#0f172a',
+  openGraph: {
+    images: '/images/mentat-commons-og.png',
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#0f172a" />
-        <meta property="og:image" content="/images/mentat-commons-og.png" />
-      </Head>
       <body>
         <header className="bg-navy text-white py-8">
           <div className="container">
