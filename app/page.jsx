@@ -14,12 +14,6 @@ export default function HomePage() {
             <p className="mt-2">Consulting, data architecture, and model governance for startups, research orgs, NGOs, and policy advocates.</p>
             <a className="cta mt-4 inline-block" href="/axis1">Explore Bene Data →</a>
           </div>
-
-          <div className="card">
-            <h4 className="font-semibold">Axis II — Mentat Theatre</h4>
-            <p className="mt-2">Story, theatre, and improv — applied for cultural transformation, restorative practices, and creative learning.</p>
-            <a className="cta mt-4 inline-block" href="/axis2">Explore Mentat Theatre →</a>
-          </div>
         </div>
       </section>
 

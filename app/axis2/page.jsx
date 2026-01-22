@@ -22,7 +22,7 @@ export default function Axis2Page(){
           <p className="mt-2">Corporate and organizational modules to build adaptability and creative collaboration.</p>
           <a className="cta mt-3 inline-block" href="/axis2/applied-improv">Read →</a>
         </div>
-      </div>
+      </div> 
     </div>
   )
 }

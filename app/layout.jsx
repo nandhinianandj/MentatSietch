@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
               <a className="mr-4" href="/">Home</a>
               <a className="mr-4" href="/about">About</a>
               <a className="mr-4" href="/axis1">Bene Data Collective</a>
-              <a className="mr-4" href="/axis2">Mentat Theatre</a>
               <a className="mr-4" href="/training">Training</a>
               <a href="/links">Links</a>
             </nav>
