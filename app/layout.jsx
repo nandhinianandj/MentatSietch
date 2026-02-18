@@ -3,8 +3,8 @@ import Head from 'next/head'
 import ChatWidget from './components/ChatWidget'
 
 export const metadata = {
-  title: 'Mentat Commons — Designing decisions for collective intelligence',
-  description: 'Mentat Commons — a studio and lab combining data systems, facilitation, and storytelling to help organizations think together.',
+  title: 'Mentat Commons | Nandhini Anand — AI Architect & Consultant',
+  description: 'Nandhini Anand is a Senior AI Architect building production AI infrastructure. From scaling to 2M users to running models on the edge.',
   viewport: 'width=device-width, initial-scale=1',
   themeColor: '#0f172a',
   openGraph: {
