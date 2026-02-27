@@ -79,10 +79,15 @@ async function main() {
 
       const embedding = await generateEmbedding(chunk);
       if (embedding) {
+        let normSq = 0;
+        for (let i = 0; i < embedding.length; i++) {
+          normSq += embedding[i] * embedding[i];
+        }
         documents.push({
           source: path.basename(file),
           content: chunk,
           embedding,
+          norm: Math.sqrt(normSq),
         });
       }
     }
