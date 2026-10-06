@@ -1,8 +1,23 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Training & Capability Building | Mentat Commons (mentatcommons.com)',
+  description: 'Project-led courses and practice-based labs for teams making high-stakes decisions under uncertainty. mentatcommons.com',
+  alternates: {
+    canonical: 'https://mentatcommons.com/training',
+  },
+};
+
 export default function TrainingPage() {
   return (
     <div className="container mx-auto px-4 py-8">
+      {/* Breadcrumbs */}
+      <nav className="text-sm text-gray-500 mb-6 flex items-center space-x-2">
+        <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-gray-900 font-medium">Training</span>
+      </nav>
+
       <h2 className="text-3xl font-bold">Training & Capability Building</h2>
       <p className="mt-2 text-xl text-gray-600">Helping teams make progress when they’re under pressure to act — but unclear what problem they’re solving</p>
 

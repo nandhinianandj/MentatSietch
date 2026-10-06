@@ -1,8 +1,23 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Axis I — Systems & Decision Design | Mentat Commons (mentatcommons.com)',
+  description: 'Designing decision systems — data pipelines, ML governance, and organizational decision rights. mentatcommons.com',
+  alternates: {
+    canonical: 'https://mentatcommons.com/axis-i',
+  },
+};
+
 export default function Axis1Page() {
   return (
     <div className="container mx-auto px-4 py-8">
+      {/* Breadcrumbs */}
+      <nav className="text-sm text-gray-500 mb-6 flex items-center space-x-2">
+        <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-gray-900 font-medium">Axis I</span>
+      </nav>
+
       <h2 className="text-3xl font-bold">Systems & Decision Design</h2>
       <p className="mt-2 text-xl text-gray-600">Helping organizations make decisions they can stand behind</p>
 

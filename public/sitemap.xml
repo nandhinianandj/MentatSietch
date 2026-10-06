@@ -1,18 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nandhinianand.vercel.app/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/about/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis1/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis1/ai-ml-consulting/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis1/decision-systems/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis1/research-frameworks/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis2/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis2/writing/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis2/theatre-facilitation/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/axis2/applied-improv/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/training/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/portfolio/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/links/</loc></url>
-  <url><loc>https://nandhinianand.vercel.app/contact/</loc></url>
-</urlset>
+  <!-- Core Pages -->
+  <url>
+    <loc>https://mentatcommons.com/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/core</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/about</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/portfolio</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/contact</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/links</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
+  <!-- Axis I — Systems & Decision Design (Hub & Sublinks) -->
+  <url>
+    <loc>https://mentatcommons.com/axis-i</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/axis-i/ai-ml-data-consulting</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/axis-i/decision-systems-org-design</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/axis-i/research-thought-leadership</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Training & Capability Building (Hub & Sublinks) -->
+  <url>
+    <loc>https://mentatcommons.com/training</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mentatcommons.com/training/learning-and-decision-labs</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
